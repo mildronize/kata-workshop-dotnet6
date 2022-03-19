@@ -8,6 +8,8 @@ public class FizzBuzzTests
     [InlineData(6, "Fizz")]
 
     [InlineData(5, "Buzz")]
+
+    [InlineData(2, "2")]
     public void CanTestSingleNumber(int input, string expected)
     {
         // Arrange
