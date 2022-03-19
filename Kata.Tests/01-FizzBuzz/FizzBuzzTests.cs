@@ -4,6 +4,7 @@ public class FizzBuzzTests
 {
     [Theory]
     [InlineData(1, "1")]
+    [InlineData(3, "Fizz")]
     public void CanTestSingleNumber(int input, string expected)
     {
         // Arrange
